@@ -8,6 +8,7 @@ import Loginfunction from './cake/Loginfunction';
 import Search from './cake/Search';
 import Carousalview from '../src/cake/Corousel'
 import cakedata from './cake/cakedata';
+import Signup from './cake/Signup'
 
 
 const style = { flex: 1,
@@ -20,7 +21,8 @@ function App() {
       <h1>DINESH CAKES</h1>
       {/* <Navbar/> */}
        {/* <LoginPage/> */}
-       {/* <Loginfunction/> */}
+       <Signup/>
+      <Loginfunction/> 
        <Carousalview/>
        <Search/>
      
