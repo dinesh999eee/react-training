@@ -3,6 +3,19 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import axios from 'axios';
+
+// axios.interceptors.request.use((request)=>{
+//   console.log("......" , request.url)
+//   if(request.url.includes("upload") || request.url.includes("cart") ){
+//     if(localStorage.token){
+//       request.headers["authtoken"] = localStorage.token
+//     } 
+//   }
+//   return request
+// }, (error)=>{
+//   return Promise.reject(error)
+// })
 
 ReactDOM.render(
   <React.StrictMode>
